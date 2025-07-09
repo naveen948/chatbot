@@ -1,0 +1,67 @@
+
+body{
+  height: 100vh;
+  background:linear-gradient(rgb(140, 0, 168),white);
+}
+.suggest-card{
+  padding: 5px;
+  color: grey;cursor: pointer;
+}
+.AI-response-message{
+  text-align: left;
+  max-width: 50%;
+  padding: 10px 15px;
+  margin: 10px 10px;
+  background:linear-gradient(whitesmoke);
+     border-radius: 10px;
+
+}
+.user-response-message{
+    text-align: right;
+    max-width: 50%;
+     padding: 10px 10px;
+  margin: 10px 0px;
+   border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.chatbot-body{
+  height: calc(100vh-200px);
+  overflow:auto ;
+}
+.logo-image{
+  width: 100%;
+  height: 100%;
+}
+.logo-img-container{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+.chatbot-body {
+  max-height: 65vh;     /* Limit height */
+  overflow-y: auto;     /* Scroll when overflow */
+  padding: 1rem;
+}
+
+.AI-response-message,
+.user-response-message {
+  max-width: 80%;       /* Prevent messages from stretching */
+  word-wrap: break-word;
+  white-space: normal;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.AI-response-message {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.user-response-message {
+  background-color: #d9f2ff;
+  color: #000;
+}
+.color-head{
+  color:rgb(158, 0, 92);
+}
