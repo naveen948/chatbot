@@ -74,6 +74,9 @@ body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.color-border{
+   background: linear-gradient(90deg,#EC008C 0%, #FC6767 100%);
+}
 /* .label1{
   top:15%;
   right: 0%;
