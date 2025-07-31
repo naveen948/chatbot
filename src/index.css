@@ -135,4 +135,10 @@ body{
   height: 10px !important;
   overflow:auto ;
 }
+ .serach-bar{
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+ }
  }
