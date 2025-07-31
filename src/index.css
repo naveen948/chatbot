@@ -119,7 +119,7 @@ body{
   font-weight: 500;
 }
 .chatbot-body{
-  height: 30rem !important;
+  height: 40rem !important;
   overflow:auto ;
 }
 
