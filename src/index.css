@@ -42,7 +42,7 @@ body{
   object-fit: contain;
 }
 .chatbot-body {
-  height: 80vh;
+  height: 70vh;
   overflow-y: auto;     /* Scroll when overflow */
   padding: 1rem;
   scrollbar-width: none;
