@@ -248,7 +248,7 @@ Make it visually appealing and emoji-rich.
 
   return (
     <div className="container-fluid p-0">
-      <div className="card vh-100 bg-transparent border-0 shadow-sm">
+      <div className="card bg-transparent border-0 shadow-sm">
         <div className="position-sticky bg-black card">
           <div className="row">
             <div className="col-2  toggle d-flex justify-content-center align-items-center mt-4">

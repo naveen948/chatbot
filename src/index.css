@@ -30,7 +30,7 @@ body{
   font-weight: 550;
 }
 .chatbot-body{
-  height: calc(100vh-200px);
+  height: 200rem !important;
   overflow:auto ;
 }
 .logo-image{
@@ -77,12 +77,7 @@ body{
 .color-border{
    background: linear-gradient(90deg,#EC008C 0%, #FC6767 100%);
 }
-/* .label1{
-  top:15%;
-  right: 0%;
-  left: 2.2rem;
-  position: fixed;
-} */
+
  .input_box::placeholder{
   color:white;
   font-weight: 500;
@@ -99,15 +94,7 @@ body{
   background:linear-gradient(rgba(0, 0, 0, 0.877));
   border-radius: 10px;
   padding: 10px;
-
-  
- }
- .serach-bar{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
- }
+}
  .card-color{
  background:  linear-gradient(90deg,#EC008C 0%, #FC6767 100%);
  outline: none;
@@ -132,13 +119,8 @@ body{
   font-weight: 500;
 }
 .chatbot-body{
-  height: 10px !important;
+  height: 30rem !important;
   overflow:auto ;
 }
- .serach-bar{
-  position: absolute;
-  bottom: 0%;
-  right: 0%;
-  left: 0%;
- }
+
  }
