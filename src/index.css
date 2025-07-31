@@ -1,7 +1,9 @@
-
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
 body{
   height: 100vh;
-  background:linear-gradient(rgb(140, 0, 168),white);
+  background:linear-gradient(rgb(0, 0, 0));
 }
 .suggest-card{
   padding: 5px;
@@ -12,8 +14,10 @@ body{
   max-width: 50%;
   padding: 10px 15px;
   margin: 10px 10px;
-  background:linear-gradient(whitesmoke);
-     border-radius: 10px;
+  color: white !important;
+  background:rgba(119, 119, 119, 0.26) !important;
+  border-radius: 1px 10px 10px 10px !important ;
+  font-weight: 550;
 
 }
 .user-response-message{
@@ -21,8 +25,9 @@ body{
     max-width: 50%;
      padding: 10px 10px;
   margin: 10px 0px;
-   border-radius: 10px;
-  background-color: rgb(255, 255, 255);
+   border-radius: 10px 1px 10px 10px !important ;
+  background-color: rgb(255, 255, 255) !important;
+  font-weight: 550;
 }
 .chatbot-body{
   height: calc(100vh-200px);
@@ -38,10 +43,12 @@ body{
   object-fit: contain;
 }
 .chatbot-body {
-  max-height: 65vh;     /* Limit height */
+
   overflow-y: auto;     /* Scroll when overflow */
   padding: 1rem;
+  scrollbar-width: none;
 }
+
 
 .AI-response-message,
 .user-response-message {
@@ -63,5 +70,54 @@ body{
   color: #000;
 }
 .color-head{
-  color:rgb(158, 0, 92);
+ background: linear-gradient(90deg,#EC008C 0%, #FC6767 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+/* .label1{
+  top:15%;
+  right: 0%;
+  left: 2.2rem;
+  position: fixed;
+} */
+ .input_box::placeholder{
+  color:white;
+  font-weight: 500;
+  
+ }
+ .input_box{
+  background-color: transparent;
+ }
+  .input_box:focus{
+  background-color: transparent;
+  box-shadow: none;
+ }
+ .color-search{
+  background:linear-gradient(rgba(0, 0, 0, 0.877));
+  border-radius: 10px;
+  padding: 10px;
+ }
+ .card-color{
+ background:  linear-gradient(90deg,#EC008C 0%, #FC6767 100%);
+ outline: none;
+  border: none !important;
+ 
+ }
+ .toggle{
+  display: none !important;
+ }
+ @media(max-width:768px){
+  .navi{
+    display: none;
+  }
+  .toggle{
+    display: block !important;
+  }
+  .AI-response-message{
+  font-weight: 500;
+
+}
+.user-response-message{
+  font-weight: 500;
+}
+ }
