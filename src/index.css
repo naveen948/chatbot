@@ -99,6 +99,8 @@ body{
   background:linear-gradient(rgba(0, 0, 0, 0.877));
   border-radius: 10px;
   padding: 10px;
+
+  
  }
  .card-color{
  background:  linear-gradient(90deg,#EC008C 0%, #FC6767 100%);
@@ -122,5 +124,9 @@ body{
 }
 .user-response-message{
   font-weight: 500;
+}
+.chatbot-body{
+  height: calc(100vh-400px) !important;
+  overflow:auto ;
 }
  }
