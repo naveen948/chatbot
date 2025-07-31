@@ -102,6 +102,12 @@ body{
 
   
  }
+ .serach-bar{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+ }
  .card-color{
  background:  linear-gradient(90deg,#EC008C 0%, #FC6767 100%);
  outline: none;
@@ -126,7 +132,7 @@ body{
   font-weight: 500;
 }
 .chatbot-body{
-  height: calc(100vh-400px) !important;
+  height: 10px !important;
   overflow:auto ;
 }
  }
