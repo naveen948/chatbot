@@ -30,7 +30,6 @@ body{
   font-weight: 550;
 }
 .chatbot-body{
-  height: 200rem !important;
   overflow:auto ;
 }
 .logo-image{
@@ -43,7 +42,7 @@ body{
   object-fit: contain;
 }
 .chatbot-body {
-
+  height: 80vh;
   overflow-y: auto;     /* Scroll when overflow */
   padding: 1rem;
   scrollbar-width: none;
@@ -63,6 +62,15 @@ body{
 .AI-response-message {
   background-color: #f1f1f1;
   color: #333;
+}
+.card{
+  position: relative;
+}
+.card-footer{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
 }
 
 .user-response-message {
@@ -119,7 +127,6 @@ body{
   font-weight: 500;
 }
 .chatbot-body{
-  height: 40rem !important;
   overflow:auto ;
 }
 

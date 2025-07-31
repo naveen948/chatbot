@@ -335,7 +335,9 @@ Make it visually appealing and emoji-rich.
         </div>
 
         {/* Input Field */}
-        <div className="d-flex justify-content-center color-search serach-bar">
+        
+      </div>\
+      <div className="d-flex card-footer justify-content-center color-search serach-bar">
           <div className="card card-color w-lg-50 w-100 my-2  float_search align-items-center">
             <div className="input-group">
               <input
@@ -356,7 +358,6 @@ Make it visually appealing and emoji-rich.
             </div>
           </div>
         </div>
-      </div>
 
 
 
